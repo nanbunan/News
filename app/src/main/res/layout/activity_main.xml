@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rgTabBar"/>
+
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_above="@+id/rgTabBar"
+        android:background="@color/colorBlack"/>
+
+    <RadioGroup
+        android:id="@+id/rgTabBar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbTabHome"
+            style="@style/TabButton"
+            android:drawableTop="@drawable/shouye_selector"
+            android:text="首页"/>
+
+
+
+        <RadioButton
+            android:id="@+id/rbTabjiaoyi"
+            style="@style/TabButton"
+            android:drawableTop="@drawable/jiaoyi_selector"
+            android:text="交易吧" />
+
+        <RadioButton
+            android:id="@+id/rbTabwode"
+            style="@style/TabButton"
+            android:drawableTop="@drawable/wode_selector"
+            android:text="我的"/>
+
+    </RadioGroup>
+</RelativeLayout>

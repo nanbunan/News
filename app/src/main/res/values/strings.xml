@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LiuLIuShare</string>
+    <string name="tip">提示</string>
+    <string name="exit">确认推出吗？</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="input">请输入11位有效手机号码</string>
+    <string name="codesuccess">验证码发送成功，请尽快使用</string>
+    <string name="secondsend">重新发送</string>
+    <string name="codedefault">验证码发送失败，请检查网络连接</string>
+    <string name="notphonenumber">手机号或验证码输入不合法</string>
+    <string name="checkagree">请勾选同意写协议</string>
+    <string name="loginsuccess">登陆成功</string>R.string.loginsuccess
+    <string name="isnotcode">验证码错误</string>
+    <string name="second">秒</string>
+    <string name="qqloginsucccess">登陆成功返回:</string>
+    <string name="qqloginloser">第三方登陆失败：</string>
+    <string name="qqacceptloser">QQ授权出错：</string>
+    <string name="cancelqqaccept">取消qq授权</string>
+
+</resources>
